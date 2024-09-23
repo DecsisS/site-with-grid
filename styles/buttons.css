@@ -1,0 +1,46 @@
+.primary-button-corner,
+.primary-button,
+.default-button {
+    font-family: var(--font-family-b);
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 16px;
+
+}
+
+.primary-button-corner,
+.primary-button {
+    border: none;
+    color: var(--color-white);
+    background: var(--color-purple-dark);
+    transition: background var(--animation);
+
+}
+
+.primary-button-corner {
+    border-radius: 999px;
+}
+
+
+
+.primary-button-corner:hover,
+.primary-button:hover,
+.primary-button-corner:focus,
+.primary-button:focus {
+    background: var(--color-purple-light);
+}
+
+.default-button {
+    background: transparent;
+    border: 1px solid var(--color-gray-32);
+    color: var(--color-purple-dark);
+    transition: border, color var(--animation);
+}
+
+.default-button:hover,
+.defailt-button:focus {
+    border: 1px solid var(--color-gray-24);
+    color: var(--color-purple-light);
+
+}
